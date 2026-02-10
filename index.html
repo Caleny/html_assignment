@@ -17,6 +17,23 @@
     </ul>
     <pre>One of my <strong>sisters</strong> is a year older than me and is in college.</pre>
     <pre>The <em>other</em> is a year younger than me and is in <em><strong>FT BIO Med</strong></em>.</pre>
+
+    <div class="alert alert-secondary alert-dismissible fade show">
+        <button type="button" class="btn-close btn-dark" data-bs-dismiss="alert"></button>
+        You can close this alert!
+    </div>
+
+    <div class="btn-group">
+        <button type="button" class="btn btn-light btn-outline-dark active">Active</button>
+        <button type="button" class="btn btn-danger btn-outline-dark" disabled>Disabled</button>
+        <button type="button" class="btn btn-info btn-outline-dark">Hover</button>
+    </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-danger btn-outline-dark">Red</button>
+        <button type="button" class="btn btn-success btn-outline-dark">Green</button>
+        <button type="button" class="btn btn-warning btn-outline-dark">Yellow</button>
+    </div>
+
     <table class="table">
         <tr>
         <th>Number of people in my family</th>
@@ -63,7 +80,7 @@
             Hello
         </div>
         <div class="col-lg">
-            Hi button
+            <button type="button" class="btn btn-success">Hi button</button>
         </div>
         <div class="col-lg">
             <p class="mark">Hello</p>
@@ -87,7 +104,7 @@
             <p class="bg-danger">hi</p>
         </div>
         <div class="col-lg">
-            deactivated hi
+            <span class="badge bg-danger">Hi badge</span>
         </div>
     </div>
 
@@ -97,9 +114,22 @@
     <img src="./img/dog 3.jpg" class="rounded-circle" alt="Dog picture" height="380" width="310">
     <div class="container">
         <p></p>
-        <a href="https://www.google.com/">Google Home Page</a>
+        Google Link: <a href="https://www.google.com/"><span class="badge bg-dark">Google Home Page</span></a>
         <p></p>
-        <a href="https://www.google.com/" target="_blank" rel=”noreferrer”>New Google Tab</a>
+        <a href="https://www.google.com/" target="_blank" rel=”noreferrer”>New Google Tab</a> <div class="spinner-grow text-danger"></div><div class="spinner-border "></div>
     </div>
+
+    <div class="progress">
+        <div class="progress-bar bg-danger" style="width:10%">10% filled</div>
+        <div class="progress-bar bg-dark" style="width:90%">90% empty</div>
+    </div>
+    <div class="progress">
+        <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:90%">90% filled</div>
+        <div class="progress-bar bg-dark" style="width:10%">10% empty</div>
+    </div>
+    <button class="btn btn-dark">
+        <div class="spinner-border text-primary"></div>
+        Loading button...
+    </button>
 </body>
 </html>
